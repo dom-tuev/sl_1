@@ -1,5 +1,8 @@
 import streamlit as st
 
-st.title('🎈 App Name')
+st.title('🎈 Erste Gehversuche')
 
-st.write('Hello world!')
+with st.sidebar:
+    st.header("Über diese App")
+
+st.write('Hallo Welt')
